@@ -1,8 +1,8 @@
-name: Build & Publish Docker Image
+name: Build & Publish Docker Image of rdatascience-notebook
 
 on:
   push:
-    branches:    
+    tags:
       - v*
 
 jobs:
