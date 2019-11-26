@@ -73,8 +73,8 @@ The Jupyter team maintains a set of Docker image definitions in the [https://git
 
 ### pydatascience-notebook
 
-[Source on GitHub](https://github.com/jupyter-data-science/datascience-stacks/tree/master/pydatascience-notebook)
-| [Dockerfile commit history](https://github.com/jupyter-data-science/datascience-stacks/commits/master/pydatascience-notebook/Dockerfile)
+[Source on GitHub](https://github.com/jupyter-datascience/datascience-stacks/tree/master/pydatascience-notebook)
+| [Dockerfile commit history](https://github.com/jupyter-datascience/datascience-stacks/commits/master/pydatascience-notebook/Dockerfile)
 | [Docker Hub image tags](https://hub.docker.com/choppydocker/pydatascience-notebook/tags/)
 
 `choppydocker/pydatascience-notebook` includes popular packages from the scientific Python ecosystem.
@@ -84,8 +84,8 @@ The Jupyter team maintains a set of Docker image definitions in the [https://git
 
 ### rdatascience-notebook
 
-[Source on GitHub](https://github.com/jupyter-data-science/datascience-stacks/tree/master/rdatascience-notebook)
-| [Dockerfile commit history](https://github.com/jupyter-data-science/datascience-stacks/commits/master/rdatascience-notebook/Dockerfile)
+[Source on GitHub](https://github.com/jupyter-datascience/datascience-stacks/tree/master/rdatascience-notebook)
+| [Dockerfile commit history](https://github.com/jupyter-datascience/datascience-stacks/commits/master/rdatascience-notebook/Dockerfile)
 | [Docker Hub image tags](https://hub.docker.com/choppydocker/rdatascience-notebook/tags/)
 
 `choppydocker/rdatascience-notebook` includes popular packages from the scientific Python ecosystem.
@@ -95,8 +95,8 @@ The Jupyter team maintains a set of Docker image definitions in the [https://git
 
 ### mldatascience-notebook
 
-[Source on GitHub](https://github.com/jupyter-data-science/datascience-stacks/tree/master/mldatascience-notebook)
-| [Dockerfile commit history](https://github.com/jupyter-data-science/datascience-stacks/commits/master/mldatascience-notebook/Dockerfile)
+[Source on GitHub](https://github.com/jupyter-datascience/datascience-stacks/tree/master/mldatascience-notebook)
+| [Dockerfile commit history](https://github.com/jupyter-datascience/datascience-stacks/commits/master/mldatascience-notebook/Dockerfile)
 | [Docker Hub image tags](https://hub.docker.com/choppydocker/mldatascience-notebook/tags/)
 
 `choppydocker/mldatascience-notebook` includes popular packages from the scientific Python ecosystem.
