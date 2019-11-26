@@ -4,8 +4,6 @@ on:
   push:
     tags:
       - v*
-    paths:
-      - 'mldatascience-notebook/*'
 
 jobs:
   build:
