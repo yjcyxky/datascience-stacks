@@ -21,6 +21,7 @@ RUN $CONDA_DIR/bin/conda config --system --prepend channels bioconda
 
 # Add python packages that you wanted
 RUN conda install --quiet --yes \
+    'cookiecutter' \
     'plotly=4.3.*' \
     && \
     conda clean --all -f -y && \

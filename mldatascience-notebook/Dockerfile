@@ -22,6 +22,7 @@ RUN $CONDA_DIR/bin/conda config --system --prepend channels bioconda && \
 
 # Add r packages that you wanted
 RUN conda install --quiet --yes \
+    'cookiecutter' \
     'keras=2.3.*' \
     'pytorch=1.3.*' \
     && \

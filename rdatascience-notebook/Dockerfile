@@ -21,6 +21,7 @@ RUN $CONDA_DIR/bin/conda config --system --prepend channels bioconda
 
 # Add r packages that you wanted
 RUN conda install --quiet --yes \
+    'cookiecutter' \
     'bioconductor-maftools=2.2.*' \
     && \
     conda clean --all -f -y && \
