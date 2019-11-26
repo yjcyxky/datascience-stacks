@@ -90,7 +90,7 @@ The Jupyter team maintains a set of Docker image definitions in the [https://git
 
 `choppydocker/rdatascience-notebook` includes popular packages from the scientific Python ecosystem.
 
-* Everything in `jupyter/scipy-notebook` and its ancestor images
+* Everything in `jupyter/r-notebook` and its ancestor images
 * [bioconductor-maftools](https://bioconductor.org/packages/3.10/bioc/html/maftools.html)
 
 ### mldatascience-notebook
