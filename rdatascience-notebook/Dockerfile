@@ -11,13 +11,13 @@ ARG TEST_ONLY_BUILD
 
 USER root
 
+# Change conda environment path
+RUN echo 'export CONDA_ENVS_PATH=/home/jovyan/.conda/envs' >> /etc/bashrc
+
 USER $NB_UID
 
 # Add bioconda channel for conda
 RUN $CONDA_DIR/bin/conda config --system --prepend channels bioconda
-
-# Change conda environment path
-RUN echo 'export CONDA_ENVS_PATH=/home/jovyan/.conda/envs' >> /etc/bashrc
 
 # Add r packages that you wanted
 RUN conda install --quiet --yes \
