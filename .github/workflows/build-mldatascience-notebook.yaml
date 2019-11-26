@@ -1,4 +1,4 @@
-name: Build & Publish Docker Image of mldatascience-notebook
+name: Build & Publish mldatascience-notebook Docker Image
 
 on:
   push:
@@ -12,13 +12,14 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@master
+      with:
+        path: mldatascience-notebook
 
     - name: Configure environment
       id: config
       run: |
         VERSION=`cat VERSION`
         echo ::set-output name=version::$VERSION
-      working-directory: mldatascience-notebook
 
     - name: Publish docker
       id: docker
@@ -28,7 +29,6 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: mldatascience-notebook
         tag: ${{ steps.config.outputs.version }}
-      working-directory: mldatascience-notebook
 
     - name: Print the name of built image
       run: echo "${{steps.docker.outputs.image}}"
