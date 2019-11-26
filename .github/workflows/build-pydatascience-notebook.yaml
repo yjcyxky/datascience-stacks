@@ -2,8 +2,10 @@ name: Build & Publish pydatascience-notebook Docker Image
 
 on:
   push:
-    tags:    
+    tags:
       - v*
+    paths:
+      - 'pydatascience-notebook/*'
 
 jobs:
   build:
@@ -12,14 +14,13 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@master
-      with:
-        path: pydatascience-notebook
 
     - name: Configure environment
       id: config
       run: |
         VERSION=`cat VERSION`
         echo ::set-output name=version::$VERSION
+      working-directory: pydatascience-notebook
 
     - name: Publish docker
       id: docker
@@ -29,6 +30,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: pydatascience-notebook
         tag: ${{ steps.config.outputs.version }}
+        subdir: pydatascience-notebook
 
     - name: Print the name of built image
       run: echo "${{steps.docker.outputs.image}}"
