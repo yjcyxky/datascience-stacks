@@ -74,10 +74,33 @@ The Jupyter team maintains a set of Docker image definitions in the [https://git
 ### pydatascience-notebook
 
 [Source on GitHub](https://github.com/jupyter-data-science/datascience-stacks/tree/master/pydatascience-notebook)
-| [Dockerfile commit history](https://github.com/jupyter-data-science/datascience-stacks/commits/master/scipy-notebook/Dockerfile)
+| [Dockerfile commit history](https://github.com/jupyter-data-science/datascience-stacks/commits/master/pydatascience-notebook/Dockerfile)
 | [Docker Hub image tags](https://hub.docker.com/choppydocker/pydatascience-notebook/tags/)
 
 `choppydocker/pydatascience-notebook` includes popular packages from the scientific Python ecosystem.
 
 * Everything in `jupyter/scipy-notebook` and its ancestor images
 * [plotly](http://plotly.github.io/)
+
+### rdatascience-notebook
+
+[Source on GitHub](https://github.com/jupyter-data-science/datascience-stacks/tree/master/rdatascience-notebook)
+| [Dockerfile commit history](https://github.com/jupyter-data-science/datascience-stacks/commits/master/rdatascience-notebook/Dockerfile)
+| [Docker Hub image tags](https://hub.docker.com/choppydocker/rdatascience-notebook/tags/)
+
+`choppydocker/rdatascience-notebook` includes popular packages from the scientific Python ecosystem.
+
+* Everything in `jupyter/scipy-notebook` and its ancestor images
+* [bioconductor-maftools](https://bioconductor.org/packages/3.10/bioc/html/maftools.html)
+
+### mldatascience-notebook
+
+[Source on GitHub](https://github.com/jupyter-data-science/datascience-stacks/tree/master/mldatascience-notebook)
+| [Dockerfile commit history](https://github.com/jupyter-data-science/datascience-stacks/commits/master/mldatascience-notebook/Dockerfile)
+| [Docker Hub image tags](https://hub.docker.com/choppydocker/mldatascience-notebook/tags/)
+
+`choppydocker/mldatascience-notebook` includes popular packages from the scientific Python ecosystem.
+
+* Everything in `jupyter/scipy-notebook` and its ancestor images
+* [keras](https://github.com/keras-team/keras)
+* [pytorch](http://pytorch.org/)
