@@ -8,61 +8,81 @@ Please visit the documentation site for help using and contributing to this imag
 
 ## Existing packages
 
-| bioconductor-affy |
-| bioconductor-biomart |
-| bioconductor-clusterprofiler |
-| bioconductor-complexheatmap |
-| bioconductor-copynumber |
-| bioconductor-geoquery |
-| bioconductor-impute |
-| bioconductor-limma |
-| bioconductor-maftools |
-| bioconductor-mygene |
-| bioconductor-pathview |
-| bioconductor-survcomp |
-| bioconductor-sva |
-| cookiecutter |
-| r-annotables |
-| r-base |
-| r-circlize |
-| r-colorspace |
-| r-comparec |
-| r-data.table |
-| r-dendextend |
-| r-dt |
-| r-e1071 |
-| r-factoextra |
-| r-factominer |
-| r-forestplot |
-| r-ggcorrplot |
-| r-ggdendro |
-| r-ggiraph |
-| r-ggpubr |
-| r-glmnet |
-| r-gmodels |
-| r-gplots |
-| r-gridgraphics |
-| r-keras |
-| r-lattice |
-| r-leaflet |
-| r-mcpcounter |
-| r-nmf |
-| r-plot3d |
-| r-plotly |
-| r-rcolorbrewer |
-| r-rlang |
-| r-rms |
-| r-scales |
-| r-scatterplot3d |
-| r-sf |
-| r-shinycssloaders |
-| r-shinydashboard |
-| r-shinyjs |
-| r-shinywidgets |
-| r-sp |
-| r-survival |
-| r-survivalroc |
-| r-survminer |
-| r-survrm2 |
-| r-tensorflow |
-| r-wgcna |
+|affy|
+|annotables|
+|base|
+|biomart|
+|broom|
+|caret|
+|circlize|
+|clusterprofiler|
+|colorspace|
+|comparec|
+|complexheatmap|
+|cookiecutter|
+|copynumber|
+|data.table|
+|dendextend|
+|devtools|
+|dplyr|
+|dt|
+|e1071|
+|factoextra|
+|factominer|
+|forecast|
+|forestplot|
+|geoquery|
+|ggcorrplot|
+|ggdendro|
+|ggiraph|
+|ggplot2|
+|ggpubr|
+|glmnet|
+|gmodels|
+|gplots|
+|gridgraphics|
+|impute|
+|keras|
+|lattice|
+|leaflet|
+|limma|
+|lubridate|
+|maftools|
+|mcpcounter|
+|mygene|
+|nmf|
+|nycflights13|
+|pathview|
+|plot3d|
+|plotly|
+|plyr|
+|purrr|
+|randomforest|
+|rcolorbrewer|
+|rcurl|
+|readr|
+|reshape2|
+|rlang|
+|rmarkdown|
+|rms|
+|rsqlite|
+|scales|
+|scatterplot3d|
+|sf|
+|shiny|
+|shinycssloaders|
+|shinydashboard|
+|shinyjs|
+|shinywidgets|
+|sp|
+|stringr|
+|survcomp|
+|survival|
+|survivalroc|
+|survminer|
+|survrm2|
+|sva|
+|tensorflow|
+|tibble|
+|tidyr|
+|wgcna|
