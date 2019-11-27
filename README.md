@@ -134,5 +134,5 @@ Steps:
 3. Run `make build`
 4. Check the building result, if no exception exists, then you can run `git add *` to cache the modification.
 5. Repeat Step 1, until all packages you wanted have been added into the Dockerfile
-6. If you can build a new image successfully, then you can submit a pull request to `dev` branch.
+6. If you can build a new image successfully, then you can submit a pull request to `master` branch.
 7. After we review your pull request, we will merge the pull request into `master` branch, then a building action will run until finished or failed.
