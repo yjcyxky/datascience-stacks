@@ -2,8 +2,10 @@ name: Build & Publish rdatascience-notebook Docker Image
 
 on:
   push:
-    tags:
-      - v*
+    branches:
+      - master 
+    paths:
+      - 'rdatascience-notebook/VERSION'
 
 jobs:
   build:

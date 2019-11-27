@@ -2,8 +2,10 @@ name: Build & Publish pydatascience-notebook Docker Image
 
 on:
   push:
-    tags:
-      - v*
+    branches:
+      - master 
+    paths:
+      - 'pydatascience-notebook/VERSION'
 
 jobs:
   build:
