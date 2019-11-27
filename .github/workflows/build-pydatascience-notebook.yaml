@@ -1,4 +1,4 @@
-name: Build & Publish pydatascience-notebook Docker Image
+name: Build & Publish pydatascience-notebook
 
 on:
   push:
