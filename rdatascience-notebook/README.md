@@ -4,4 +4,65 @@
 
 Please visit the documentation site for help using and contributing to this image and others.
 
-* [Data Science Stack in R :: rdatascience-notebook](../README.md#rdatascience-notebook)
+- [Data Science Stack in R :: rdatascience-notebook](../README.md#rdatascience-notebook)
+
+## Existing packages
+
+| bioconductor-affy |
+| bioconductor-biomart |
+| bioconductor-clusterprofiler |
+| bioconductor-complexheatmap |
+| bioconductor-copynumber |
+| bioconductor-geoquery |
+| bioconductor-impute |
+| bioconductor-limma |
+| bioconductor-maftools |
+| bioconductor-mygene |
+| bioconductor-pathview |
+| bioconductor-survcomp |
+| bioconductor-sva |
+| cookiecutter |
+| r-annotables |
+| r-base |
+| r-circlize |
+| r-colorspace |
+| r-comparec |
+| r-data.table |
+| r-dendextend |
+| r-dt |
+| r-e1071 |
+| r-factoextra |
+| r-factominer |
+| r-forestplot |
+| r-ggcorrplot |
+| r-ggdendro |
+| r-ggiraph |
+| r-ggpubr |
+| r-glmnet |
+| r-gmodels |
+| r-gplots |
+| r-gridgraphics |
+| r-keras |
+| r-lattice |
+| r-leaflet |
+| r-mcpcounter |
+| r-nmf |
+| r-plot3d |
+| r-plotly |
+| r-rcolorbrewer |
+| r-rlang |
+| r-rms |
+| r-scales |
+| r-scatterplot3d |
+| r-sf |
+| r-shinycssloaders |
+| r-shinydashboard |
+| r-shinyjs |
+| r-shinywidgets |
+| r-sp |
+| r-survival |
+| r-survivalroc |
+| r-survminer |
+| r-survrm2 |
+| r-tensorflow |
+| r-wgcna |
