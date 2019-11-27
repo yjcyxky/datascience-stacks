@@ -1,3 +1,8 @@
+# Content
+- [Selecting an Image](#Selecting-an-Image)
+- [How to submit a pull request](#How-to-submit-a-pull-request)
+
+
 # Selecting an Image
 
 * [Core Stacks](#core-stacks)
@@ -73,6 +78,11 @@ The Jupyter team maintains a set of Docker image definitions in the [https://git
 
 ### pydatascience-notebook
 
+<p align="center">
+<img src="https://github.com/jupyter-datascience/datascience-stacks/workflows/Build%20&%20Publish%20pydatascience-notebook/badge.svg" alt="Build Status">
+<a href="https://hub.docker.com/choppydocker/pydatascience-notebook/tags/" title="Get your own version badge on microbadger.com"><img src="https://images.microbadger.com/badges/version/choppydocker/pydatascience-notebook.svg"></a>
+</p>
+
 [Source on GitHub](https://github.com/jupyter-datascience/datascience-stacks/tree/master/pydatascience-notebook)
 | [Dockerfile commit history](https://github.com/jupyter-datascience/datascience-stacks/commits/master/pydatascience-notebook/Dockerfile)
 | [Docker Hub image tags](https://hub.docker.com/choppydocker/pydatascience-notebook/tags/)
@@ -83,6 +93,11 @@ The Jupyter team maintains a set of Docker image definitions in the [https://git
 * [plotly](http://plotly.github.io/)
 
 ### rdatascience-notebook
+
+<p align="center">
+<img src="https://github.com/jupyter-datascience/datascience-stacks/workflows/Build%20&%20Publish%20rdatascience-notebook/badge.svg" alt="Build Status">
+<a href="https://hub.docker.com/choppydocker/rdatascience-notebook/tags/" title="Get your own version badge on microbadger.com"><img src="https://images.microbadger.com/badges/version/choppydocker/rdatascience-notebook.svg"></a>
+</p>
 
 [Source on GitHub](https://github.com/jupyter-datascience/datascience-stacks/tree/master/rdatascience-notebook)
 | [Dockerfile commit history](https://github.com/jupyter-datascience/datascience-stacks/commits/master/rdatascience-notebook/Dockerfile)
@@ -95,6 +110,11 @@ The Jupyter team maintains a set of Docker image definitions in the [https://git
 
 ### mldatascience-notebook
 
+<p align="center">
+<img src="https://github.com/jupyter-datascience/datascience-stacks/workflows/Build%20&%20Publish%20mldatascience-notebook/badge.svg" alt="Build Status">
+<a href="https://hub.docker.com/choppydocker/mldatascience-notebook/tags/" title="Get your own version badge on microbadger.com"><img src="https://images.microbadger.com/badges/version/choppydocker/mldatascience-notebook.svg"></a>
+</p>
+
 [Source on GitHub](https://github.com/jupyter-datascience/datascience-stacks/tree/master/mldatascience-notebook)
 | [Dockerfile commit history](https://github.com/jupyter-datascience/datascience-stacks/commits/master/mldatascience-notebook/Dockerfile)
 | [Docker Hub image tags](https://hub.docker.com/choppydocker/mldatascience-notebook/tags/)
@@ -103,3 +123,16 @@ The Jupyter team maintains a set of Docker image definitions in the [https://git
 
 * Everything in `jupyter/scipy-notebook` and its ancestor images
 * [keras](https://github.com/keras-team/keras), [pytorch](http://pytorch.org/)
+
+
+# How to submit a pull request
+Before you submit a pull request, you need to test your Dockerfile.
+
+Steps:
+1. Change to the subdirectory, and follow the following steps.
+2. Add a new package into Dockerfile
+3. Run `make build`
+4. Check the building result, if no exception exists, then you can run `git add *` to cache the modification.
+5. Repeat Step 1, until all packages you wanted have been added into the Dockerfile
+6. If you can build a new image successfully, then you can submit a pull request to `dev` branch.
+7. After we review your pull request, we will merge the pull request into `master` branch, then a building action will run until finished or failed.

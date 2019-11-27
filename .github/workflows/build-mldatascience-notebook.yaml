@@ -1,4 +1,4 @@
-name: Build & Publish mldatascience-notebook Docker Image
+name: Build & Publish mldatascience-notebook
 
 on:
   push:
