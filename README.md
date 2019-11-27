@@ -91,7 +91,7 @@ The Jupyter team maintains a set of Docker image definitions in the [https://git
 `choppydocker/rdatascience-notebook` includes popular packages from the scientific Python ecosystem.
 
 * Everything in `jupyter/r-notebook` and its ancestor images
-* [bioconductor-maftools](https://bioconductor.org/packages/3.10/bioc/html/maftools.html)
+* [bioconductor-maftools](https://bioconductor.org/packages/3.10/bioc/html/maftools.html), cookiecutter, maftools, glmnet, survival, survminer, complexheatmap, survivalroc, clusterprofiler, survcomp, rms, e1071, plot3d, sva, factominer, factoextra, copynumber, mcpcounter, forestplot, comparec, circlize, affy, limma, impute, geoquery, gridgraphics, ggpubr, data.table, wgcna, mygene, annotables, pathview, sp, sf, ggiraph, scatterplot3d, base, dendextend, colorspace, ggcorrplot, ggdendro, gplots, gmodels, survrm2, nmf, biomart, keras, tensorflow, plotly, dt, shinyjs, shinydashboard, shinycssloaders, shinywidgets, rlang, rcolorbrewer, lattice, scales, leaflet
 
 ### mldatascience-notebook
 
@@ -102,5 +102,4 @@ The Jupyter team maintains a set of Docker image definitions in the [https://git
 `choppydocker/mldatascience-notebook` includes popular packages from the scientific Python ecosystem.
 
 * Everything in `jupyter/scipy-notebook` and its ancestor images
-* [keras](https://github.com/keras-team/keras)
-* [pytorch](http://pytorch.org/)
+* [keras](https://github.com/keras-team/keras), [pytorch](http://pytorch.org/)
