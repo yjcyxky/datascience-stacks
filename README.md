@@ -1,6 +1,13 @@
-# Content
+<h2 align="center">Datascience Stacks</h2>
+<p align="center">Build docker image for reproducible datescience</p>
+
+<p align="center">Jingcheng Yang [yjcyxky@163.com]</p>
+
+
+## Content
 - [Selecting an Image](#Selecting-an-Image)
 - [How to submit a pull request](#How-to-submit-a-pull-request)
+- [Contributors](#contributors)
 
 
 ## Selecting an Image
@@ -136,3 +143,8 @@ Steps:
 5. Repeat Step 1, until all packages you wanted have been added into the Dockerfile
 6. If you can build a new image successfully, then you can submit a pull request to `master` branch.
 7. After we review your pull request, we will merge the pull request into `master` branch, then a building action will run until finished or failed.
+
+
+## Contributors
+- Jingcheng Yang [yjcyxky@163.com]
+- Jun Shang [shangjunv@163.com]
