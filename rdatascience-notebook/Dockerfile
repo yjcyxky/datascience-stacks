@@ -71,6 +71,8 @@ RUN conda install --quiet --yes \
     'r-survrm2=1.0*'\
     'r-nmf=0.21*'\
     'bioconductor-biomart=2.42.*'\
+    'r-keras=2.2.*'\
+    'r-tensorflow=2.0.*'
     && \
     conda clean --all -f -y && \
     fix-permissions $CONDA_DIR && \
