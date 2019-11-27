@@ -23,20 +23,15 @@ RUN $CONDA_DIR/bin/conda config --system --prepend channels bioconda
 RUN conda install --quiet --yes \
     'cookiecutter' \
     'bioconductor-maftools=2.2.*' \
-    'r-dplyr=0.8.*'\
-    'r-ggplot2=3.1.*'\
     'r-glmnet=2.*'\
     'r-survival=2.4*'\
     'r-survminer=0.4.*'\
-    'r-dplyr=0.8.*'\
     'bioconductor-complexheatmap=2.2.*'\
-    'r-circlize=0.4.*'\
     'r-survivalroc=1.0.*'\
     'bioconductor-clusterprofiler=3.14.*'\
     'bioconductor-survcomp=1.36.*'\
     'r-rms=5.*'\
     'r-e1071=1.*'\
-    'r-reshape2=1.4.*'\
     'r-plot3d=0.3*'\
     'bioconductor-sva=3.34.*'\
     'r-factominer=2.0*'\
@@ -72,7 +67,18 @@ RUN conda install --quiet --yes \
     'r-nmf=0.21*'\
     'bioconductor-biomart=2.42.*'\
     'r-keras=2.2.*'\
-    'r-tensorflow=2.0.*'
+    'r-tensorflow=2.0.*'\
+    'r-plotly=4.9.*'\
+    'r-dt=0.1*'\
+    'r-shinyjs=1.0*'\
+    'r-shinydashboard=0.7.*'\
+    'r-shinycssloaders=0.2*'\
+    'r-shinywidgets=0.5*'\
+    'r-rlang=0.3*'\
+    'r-rcolorbrewer=1.1*'\
+    'r-lattice=0.2*'\
+    'r-scales=1.0*'\
+    'r-leaflet=2.0*'\
     && \
     conda clean --all -f -y && \
     fix-permissions $CONDA_DIR && \
