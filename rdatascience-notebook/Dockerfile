@@ -24,7 +24,7 @@ RUN conda install --quiet --yes \
     'cookiecutter' \
     'bioconductor-maftools=2.2.*' \
     'r-glmnet=2.*' \
-    'r-survival=2.4*' \
+    'r-survival=2.44_1.1' \
     'r-survminer=0.4.*' \
     'bioconductor-complexheatmap=2.2.*' \
     'r-survivalroc=1.0.*' \
@@ -32,7 +32,7 @@ RUN conda install --quiet --yes \
     'bioconductor-survcomp=1.36.*' \
     'r-rms=5.*' \
     'r-e1071=1.*' \
-    'r-plot3d=0.3*' \
+    'r-plot3d=1.1.*' \
     'bioconductor-sva=3.34.*' \
     'r-factominer=2.0*' \
     'r-factoextra=1.0.*' \
@@ -76,7 +76,7 @@ RUN conda install --quiet --yes \
     'r-shinywidgets=0.5*' \
     'r-rlang=0.3*' \
     'r-rcolorbrewer=1.1*' \
-    'r-lattice=0.2*' \
+    'r-lattice=0.20_38' \
     'r-scales=1.0*' \
     'r-leaflet=2.0*' \
     && \
