@@ -4,8 +4,10 @@ on:
   push:
     branches:    
       - master
+      - dev
     paths:
       - 'mldatascience-notebook/VERSION'
+      - 'mldatascience-notebook/Dockerfile'
 
 jobs:
   build:
@@ -25,6 +27,19 @@ jobs:
     - name: Publish docker
       id: docker
       uses: yjcyxky/docker-action@master
+      if: github.ref == 'refs/heads/dev'
+      with:
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        repository: choppydocker/mldatascience-notebook
+        tag: ${{ steps.config.outputs.version }}
+        flag: test
+        subdir: mldatascience-notebook
+
+    - name: Publish docker
+      id: docker
+      uses: yjcyxky/docker-action@master
+      if: github.ref == 'refs/heads/master'
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
@@ -32,16 +47,24 @@ jobs:
         tag: ${{ steps.config.outputs.version }}
         subdir: mldatascience-notebook
 
-    - name: Print the name of built image
-      run: echo "${{steps.docker.outputs.image}}"
-
     - name: Dingtalk Robot Message
       uses: fifsky/dingtalk-action@master
+      if: success()
       with:
         url: ${{ secrets.DINGTALK_WEBHOOK }}
         type: markdown
         content: |
-          # mldatascience-notebook镜像自动构建通知
-          @Choppy Team 主人，我已将您刚更新在Github上的mldatascience-notebook代码，构建成Docker镜像发布到Dockerhub镜像仓库了，请您随时取用
-          > Choppy Team：可登录 https://github.com/jupyter-datascience/datascience-stacks/mldatascience-notebook 查看详情
+          # [SUCCESS] mldatascience-notebook镜像自动构建
+          点击<a href="https://github.com/jupyter-datascience/datascience-stacks/mldatascience-notebook">mldatascience-notebook</a> 查看详情
+        at: Choppy Team
+
+    - name: Dingtalk Robot Message
+      uses: fifsky/dingtalk-action@master
+      if: failure()
+      with:
+        url: ${{ secrets.DINGTALK_WEBHOOK }}
+        type: markdown
+        content: |
+          # [FAILED] mldatascience-notebook镜像自动构建
+          点击<a href="https://github.com/jupyter-datascience/datascience-stacks/mldatascience-notebook">mldatascience-notebook</a> 查看详情
         at: Choppy Team
