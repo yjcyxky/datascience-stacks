@@ -90,7 +90,7 @@ The Jupyter team maintains a set of Docker image definitions in the [https://git
 `choppydocker/pydatascience-notebook` includes popular packages from the scientific Python ecosystem.
 
 * Everything in `jupyter/scipy-notebook` and its ancestor images
-* [plotly](http://plotly.github.io/)
+* [plotly](http://plotly.github.io/), mygene
 
 ### rdatascience-notebook
 

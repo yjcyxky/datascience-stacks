@@ -23,6 +23,7 @@ RUN $CONDA_DIR/bin/conda config --system --prepend channels bioconda
 RUN conda install --quiet --yes \
     'cookiecutter' \
     'plotly=4.3.*' \
+    'mygene=3.1.*' \
     && \
     conda clean --all -f -y && \
     fix-permissions $CONDA_DIR && \
