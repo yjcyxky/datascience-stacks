@@ -25,7 +25,7 @@ jobs:
       working-directory: pydatascience-notebook
 
     - name: Publish docker
-      id: docker
+      id: docker-dev
       uses: yjcyxky/docker-action@master
       if: github.ref == 'refs/heads/dev'
       with:
@@ -37,7 +37,7 @@ jobs:
         subdir: pydatascience-notebook
 
     - name: Publish docker
-      id: docker
+      id: docker-master
       uses: yjcyxky/docker-action@master
       if: github.ref == 'refs/heads/master'
       with:
