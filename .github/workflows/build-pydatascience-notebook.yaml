@@ -24,8 +24,8 @@ jobs:
         echo ::set-output name=version::$VERSION
       working-directory: pydatascience-notebook
 
-    - name: Test docker
-      id: test-docker
+    - name: Publish docker
+      id: docker-dev
       uses: yjcyxky/docker-action@master
       if: github.ref == 'refs/heads/dev'
       with:
