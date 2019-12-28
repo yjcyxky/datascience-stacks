@@ -87,28 +87,28 @@ The Jupyter team maintains a set of Docker image definitions in the [https://git
 
 <p align="left">
 <img src="https://github.com/jupyter-datascience/datascience-stacks/workflows/Build%20&%20Publish%20pydatascience-notebook/badge.svg" alt="Build Status">
-<a href="https://hub.docker.com/choppydocker/pydatascience-notebook/tags/" title="Get your own version badge on microbadger.com"><img src="https://images.microbadger.com/badges/version/choppydocker/pydatascience-notebook.svg"></a>
+<a href="https://hub.docker.com/r/choppydocker/pydatascience-notebook/tags/" title="Get your own version badge on microbadger.com"><img src="https://images.microbadger.com/badges/version/choppydocker/pydatascience-notebook.svg"></a>
 </p>
 
 [Source on GitHub](https://github.com/jupyter-datascience/datascience-stacks/tree/master/pydatascience-notebook)
 | [Dockerfile commit history](https://github.com/jupyter-datascience/datascience-stacks/commits/master/pydatascience-notebook/Dockerfile)
-| [Docker Hub image tags](https://hub.docker.com/choppydocker/pydatascience-notebook/tags/)
+| [Docker Hub image tags](https://hub.docker.com/r/choppydocker/pydatascience-notebook/tags/)
 
 `choppydocker/pydatascience-notebook` includes popular packages from the scientific Python ecosystem.
 
 * Everything in `jupyter/scipy-notebook` and its ancestor images
-* [plotly](http://plotly.github.io/)
+* [plotly](http://plotly.github.io/), mygene
 
 #### rdatascience-notebook
 
 <p align="left">
 <img src="https://github.com/jupyter-datascience/datascience-stacks/workflows/Build%20&%20Publish%20rdatascience-notebook/badge.svg" alt="Build Status">
-<a href="https://hub.docker.com/choppydocker/rdatascience-notebook/tags/" title="Get your own version badge on microbadger.com"><img src="https://images.microbadger.com/badges/version/choppydocker/rdatascience-notebook.svg"></a>
+<a href="https://hub.docker.com/r/choppydocker/rdatascience-notebook/tags/" title="Get your own version badge on microbadger.com"><img src="https://images.microbadger.com/badges/version/choppydocker/rdatascience-notebook.svg"></a>
 </p>
 
 [Source on GitHub](https://github.com/jupyter-datascience/datascience-stacks/tree/master/rdatascience-notebook)
 | [Dockerfile commit history](https://github.com/jupyter-datascience/datascience-stacks/commits/master/rdatascience-notebook/Dockerfile)
-| [Docker Hub image tags](https://hub.docker.com/choppydocker/rdatascience-notebook/tags/)
+| [Docker Hub image tags](https://hub.docker.com/r/choppydocker/rdatascience-notebook/tags/)
 
 `choppydocker/rdatascience-notebook` includes popular packages from the scientific Python ecosystem.
 
@@ -119,12 +119,12 @@ The Jupyter team maintains a set of Docker image definitions in the [https://git
 
 <p align="left">
 <img src="https://github.com/jupyter-datascience/datascience-stacks/workflows/Build%20&%20Publish%20mldatascience-notebook/badge.svg" alt="Build Status">
-<a href="https://hub.docker.com/choppydocker/mldatascience-notebook/tags/" title="Get your own version badge on microbadger.com"><img src="https://images.microbadger.com/badges/version/choppydocker/mldatascience-notebook.svg"></a>
+<a href="https://hub.docker.com/r/choppydocker/mldatascience-notebook/tags/" title="Get your own version badge on microbadger.com"><img src="https://images.microbadger.com/badges/version/choppydocker/mldatascience-notebook.svg"></a>
 </p>
 
 [Source on GitHub](https://github.com/jupyter-datascience/datascience-stacks/tree/master/mldatascience-notebook)
 | [Dockerfile commit history](https://github.com/jupyter-datascience/datascience-stacks/commits/master/mldatascience-notebook/Dockerfile)
-| [Docker Hub image tags](https://hub.docker.com/choppydocker/mldatascience-notebook/tags/)
+| [Docker Hub image tags](https://hub.docker.com/r/choppydocker/mldatascience-notebook/tags/)
 
 `choppydocker/mldatascience-notebook` includes popular packages from the scientific Python ecosystem.
 
