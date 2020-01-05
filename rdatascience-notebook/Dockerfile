@@ -45,6 +45,7 @@ RUN conda install --quiet --yes \
     'bioconductor-limma=3.42.*' \
     'bioconductor-impute=1.60*' \
     'bioconductor-geoquery=2.54*' \
+
     'r-gridgraphics=0.4*' \
     'r-ggpubr=0.2.*' \
     'r-data.table=1.12.*' \
@@ -52,8 +53,6 @@ RUN conda install --quiet --yes \
     'bioconductor-mygene=1.22*' \
     'r-annotables=v0.1.*' \
     'bioconductor-pathview=1.26*' \
-    'r-sp=1.2*' \
-    'r-sf=0.8*' \
     'r-ggiraph=0.7*' \
     'r-scatterplot3d=0.3*' \
     'r-base=3.6.*' \
@@ -69,8 +68,7 @@ RUN conda install --quiet --yes \
     'r-keras=2.2.*' \
     'r-tensorflow=2.0.*' \
     'r-plotly=4.9.*' \
-    'r-dt=0.1*' \
-    'r-shinyjs=1.0*' \
+   'r-shinyjs=1.0*' \
     'r-shinydashboard=0.7.*' \
     'r-shinycssloaders=0.2*' \
     'r-shinywidgets=0.5*' \
