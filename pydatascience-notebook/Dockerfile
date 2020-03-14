@@ -24,6 +24,7 @@ RUN conda install --quiet --yes \
     'cookiecutter' \
     'plotly=4.3.*' \
     'mygene=3.1.*' \
+    'biopython=1.7*'\
     && \
     conda clean --all -f -y && \
     fix-permissions $CONDA_DIR && \
